@@ -111,7 +111,6 @@ public class ReOrderEncapsulator extends Encapsulator{
 	 */
 	public static String encapsulate(String[] input){
 		String permutations = getPermutations(input);
-		//System.out.println(permutations);
 		String delim = "---";
 		StringTokenizer st = new StringTokenizer(permutations, delim);
 		String shortestString = null;
